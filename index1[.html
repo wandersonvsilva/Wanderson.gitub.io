@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Wanderson Silva</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+    color: white;
+    margin: 0;
+    padding: 2rem;
+  }
+  h1 {
+    font-size: 3rem;
+    animation: colorShift 4s linear infinite alternate;
+    margin-bottom: 0.2rem;
+  }
+  @keyframes colorShift {
+    0% { color: #fff; }
+    50% { color: #ffd700; }
+    100% { color: #fff; }
+  }
+  img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #ffd700cc;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease-in-out;
+  }
+  img:hover {
+    transform: scale(1.1) rotate(5deg);
+  }
+  p {
+    max-width: 500px;
+    margin: 0 auto 1rem auto;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-shadow: 1px 1px 5px #0004;
+  }
+  a {
+    color: #ffd700;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  a:hover {
+    color: #fff;
+  }
+</style>
+</head>
+<body>
+  <img src="https://avatars.githubusercontent.com/u/000000?v=4" 
+       alt="Avatar do seu-usuario" id="avatar" />
+  <h1>Olá, eu sou seu-usuario!</h1>
+  <p>Desenvolvedor web apaixonado por criar experiências incríveis. Sempre buscando aprender e inovar.</p>
+  <p>Veja meus projetos no <a href="https://github.com/seu-usuario" target="_blank">GitHub</a> e conecte-se comigo!</p>
+</body>
+</html>
